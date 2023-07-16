@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>jjeongee homework</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<Link rel="stylesheet" href="js/maincss.css">
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar__logo">
+    <img src="멋사로고.png" alt="로고" style="width: 50px">
+    <a href="#">LikeLion</a>
+  </div>
+  <ul class="navbar__menu">
+    <li class="navbar__menu__item">Home</li>
+    <li class="navbar__menu__item">About</li>
+    <li class="navbar__menu__item">Works</li>
+    <li class="navbar__menu__item">Contact</li>
+  </ul>
+  <button class="navbar__toggle-btn">
+    <i class="fas fa-bars"></i>
+  </button>
+</nav>
+
+<div>
+  <button id="btn">단어 불러오기</button>
+</div>
+<!--무작위 단어를 보여주는 네모칸 생성-->
+<div class="word_box">
+  <span class = "box1">
+  <p id="word1"></p>
+</span>
+
+  <span class = "box2">
+  <p id="word2"></p>
+</span>
+
+  <span class = "box3">
+  <p id="word3"></p>
+</span>
+
+</div>
+<script src="main.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://kit.fontawesome.com/9eb162ac0d.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
